@@ -1,0 +1,263 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+ .navbar-brand img.img-fluid.d-inline-block.align-top {
+  max-width: 250px;
+  margin-left: 30px;
+}
+
+.navbar-nav .nav-link {
+  color:#fff;
+}
+
+
+/* slider with vertical conrols-pager */
+#block-views-owl-carousel-block {
+  margin-bottom: 60px;
+}
+.view-landing-carousel .skin-default {
+  display: flex;
+  vertical-align: middle;
+}
+.views-slideshow-controls-bottom.clearfix {
+  width: 25%;
+  background-color: bisque;
+}
+#widget_pager_bottom_landing_carousel-block_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+
+}
+.views-field-field-feature-banner-title {
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-color: beige;
+  box-shadow: -6px -1px 9px #666;
+  border-left: 5px solid transparent;
+}
+.views-field-field-feature-banner-title:hover {
+  border-left: 5px solid orangered;
+}
+
+.view-landing-carousel .views-row img {
+  background-color: #ccc;
+  min-width: 100%;
+  height: auto;
+}
+p.field-content {
+  position: absolute;
+  bottom: 0;
+  padding: 30px;
+  font-weight: bold;
+}
+#views_slideshow_cycle_main_landing_carousel-block_2 {
+  overflow: hidden;
+  position:relative;
+  background-color: #eee;
+}
+
+
+/** **************************
+  HOMEPAGE: Row 3 - Carousel
+  *************************** */
+  #hp-row3 {
+    padding-bottom: 20px;
+  }
+  
+  #hp-row3 .pg-head {
+    border-bottom: 1px solid #eee;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  
+  #hp-row3 .pg-head h2 {
+    padding-bottom: 5px;
+    color: #ccc;
+  }
+  
+  #hp-row3 section.row.region.region-hp-row3 {
+    padding-top: 10px;
+  }
+  
+  #hp-row3 .block.block-views.block-views-blockmisc-entityqueues-med-features-block-1 {
+    width: 100%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    overflow: hidden;
+  }
+  
+  #hp-row3 .block.block-views.block-views-blockmisc-entityqueues-med-features-block-1 .contextual-region {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #hp-row3 .cycle-slideshow {
+    display: none;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide {
+    vertical-align: top;
+  }
+  
+  #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div {
+    width: 400px;
+    white-space: normal;
+    margin: auto;
+  }
+  
+  #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div img {
+    width: auto !important;
+    height: auto !important;
+  }
+  
+  #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div h4 {
+    font-size: 1.7em;
+    color: #005B94;
+    padding: 5px 0 5px 0;
+    vertical-align: middle;
+  }
+  
+  #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div p {
+    font-size: 18px;
+    color: blue;
+  }
+  
+  #hp-row3 .prev-arrow, #hp-row3 .next-arrow {
+    display: block;
+  }
+  
+  #hp-row3 .prev-arrow {
+    position: absolute;
+    padding-left: 2px;
+    background-image: url(/themes/custom/ahrq_bootstrap_barrio/pattern-lab/source/images/theme_core/carousel_arrow_left.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    top: 35%;
+    left: 0;
+      /* top: 35%;
+       left: 0px;
+      */
+    z-index: 1;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  #hp-row3 .next-arrow {
+    position: absolute;
+    padding-left: 2px;
+    background-image: url(/themes/custom/ahrq_bootstrap_barrio/pattern-lab/source/images/theme_core/carousel_arrow_right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 100px;
+    top: 35%;
+    right: 0%;
+    z-index: 1;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  @media (max-width: 767px) and (min-width: 428px) {
+    #hp-row3 .cycle-slideshow .cycle-slide.cycle-sentinel {
+      width: 330px !important;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div {
+      width: 300px;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div img {
+      width: 300px !important;
+      height: 250px !important;
+    }
+  
+    #hp-row3 .next-arrow, #hp-row3 .prev-arrow {
+      top: 25%;
+    }
+  }
+  
+  @media (max-width: 427px) {
+    #hp-row3 .cycle-slideshow .cycle-slide.cycle-sentinel {
+      width: 200px !important;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div {
+      width: 200px;
+      margin-left: 50px;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div img {
+      width: 200px !important;
+      height: 167px !important;
+    }
+  
+    #hp-row3 .next-arrow, #hp-row3 .prev-arrow {
+      top: 25%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1299px) {
+    #hp-row3 .cycle-slideshow .cycle-slide.cycle-sentinel {
+      width: 216px !important;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div {
+      width: 216px;
+      margin-left: 50px;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div img {
+      width: 216px !important;
+      height: 180px !important;
+    }
+  
+    #hp-row3 .next-arrow, #hp-row3 .prev-arrow {
+      top: 25%;
+    }
+  }
+  
+  @media (min-width: 1300px) and (max-width: 1799px) {
+    #hp-row3 .cycle-slideshow .cycle-slide.cycle-sentinel {
+      width: 339px !important;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div {
+      width: 318px;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div img {
+      width: 318px !important;
+      height: 250px !important;
+    }
+  }
+  
+  @media (min-width: 1800px) {
+    #hp-row3 .cycle-slideshow.cycle-hp-slideshow {
+      overflow: unset;
+      padding-bottom: 100px;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-slide.cycle-sentinel {
+      width: 400px !important;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div {
+      width: 390px;
+    }
+  
+    #hp-row3 .cycle-slideshow .cycle-carousel-wrap .cycle-slide div img {
+      width: 390px !important;
+      height: 325px !important;
+    }
+  }

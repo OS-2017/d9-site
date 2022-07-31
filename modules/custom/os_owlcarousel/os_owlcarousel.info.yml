@@ -1,0 +1,5 @@
+name: OS OwlCarousel
+description: Create Carousel from View
+type: module
+core_version_requirement: ^8 || ^9
+package: OS Custom

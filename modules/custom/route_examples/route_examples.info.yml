@@ -1,0 +1,8 @@
+name: Route Examples
+type: module
+description: 'Route Examples - Drupal 9.'
+core_version_requirement: ^8 || ^9
+package: Training
+version: '9.x-1.0'
+dependecies:
+  - block

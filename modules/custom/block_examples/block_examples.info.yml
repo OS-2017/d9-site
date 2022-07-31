@@ -1,0 +1,8 @@
+name: Block Examples
+description: 'Blocks displaying user login name and time on logged user profile page'
+type: module
+core_version_requirement: ^8 || ^9
+package: Training
+version: '9.x-1.0'
+dependecies:
+  - block
